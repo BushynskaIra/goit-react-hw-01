@@ -1,0 +1,54 @@
+.friendList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+ 
+  
+  .item {
+    margin-bottom: 10px;
+    border-color: black;
+    margin-right: 10px; /* Відступ між елементами */
+
+  }
+  
+  .friend {
+    
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border: 3px solid black; 
+  }
+  
+  .avatar {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* .online,
+  .offline {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+   */
+  .online {
+    color: green;
+  }
+  
+  .offline {
+    color: red;
+  }
